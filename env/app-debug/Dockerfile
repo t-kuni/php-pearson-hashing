@@ -1,8 +1,5 @@
 FROM php:7.3.10-cli-alpine3.10
 
-#
-# アプリケーション実行環境の構築
-#
 RUN apk update \
     && apk add --no-cache autoconf automake libtool gcc libc-dev libpng-dev lcms2-dev nasm make git
 # Add xdebug
