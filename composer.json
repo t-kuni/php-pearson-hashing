@@ -1,5 +1,6 @@
 {
     "name": "t-kuni/php-pearson-hashing",
+    "version": "0.0.1",
     "require": {
     },
     "repositories": [
