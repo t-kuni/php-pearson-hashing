@@ -20,3 +20,5 @@ Implementation of [Pearson Hashing](https://en.wikipedia.org/wiki/Pearson_hashin
 ```
 docker-compose run --rm app-debug composer install
 ```
+
+# Testing
