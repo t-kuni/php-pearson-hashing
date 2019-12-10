@@ -5,11 +5,14 @@ Implementation of [Pearson Hashing](https://en.wikipedia.org/wiki/Pearson_hashin
 # Installation
 
 ```
+composer require t-kuni/php-pearson-hashing
 ```
 
 # Usage
 
 ```
+use TKuni\PhpPearsonHashing\PearsonHasher;
+
 $hasher = new PearsonHasher();
 echo $hasher->hash(8, 'any message');
 ```
